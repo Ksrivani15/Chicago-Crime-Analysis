@@ -1,7 +1,5 @@
 EDA
 ================
-Harshit Bajpai
-August 28, 2018
 
 Loading Packages
 ================
@@ -107,7 +105,12 @@ ggplot(dT1, aes(YearMon, count)) +
         plot.title = element_text(size=20,hjust = 0.5,color="black"))
 ```
 
-![](EDA_files/figure-markdown_github/monthly%20crime%20plot-1.png) \# Yearly rolling sum This plot reaffirms the observation of last plot that overall the number of crimes have decreased exponentially from 2008-2014.
+![](EDA_files/figure-markdown_github/monthly%20crime%20plot-1.png)
+
+Yearly rolling sum
+==================
+
+This plot reaffirms the observation of last plot that overall the number of crimes have decreased exponentially from 2008-2014.
 
 ``` r
 #grouping by year
@@ -135,7 +138,12 @@ ggplot(data= dT2, aes( x = Year, count)) +
         plot.title = element_text(size=20,hjust = 0.5,color="black"))
 ```
 
-![](EDA_files/figure-markdown_github/yearly%20rolling%20sum-1.png) \#Total committed crimes by Type It is important to know which crimes are most committed and the bar graph shows top 22 most committed crime in the Chicago region over the years. For a perspective, the least committed crime on the list is Homicide which has a total of 5704 observations.
+![](EDA_files/figure-markdown_github/yearly%20rolling%20sum-1.png)
+
+Total committed crimes by Type
+==============================
+
+It is important to know which crimes are most committed and the bar graph shows top 22 most committed crime in the Chicago region over the years. For a perspective, the least committed crime on the list is Homicide which has a total of 5704 observations.
 
 ``` r
 #grouping by type of crime
@@ -194,7 +202,12 @@ ggplot(data = dT4, aes(y= count, x= Month)) +
         plot.title = element_text(size=20,hjust = 1,color="black"))
 ```
 
-![](EDA_files/figure-markdown_github/1-1.png) \#Crimes committed by locations It is obvious to wonder which locations are most unsafe to be better prepared. In the plot we see Street, Residence, Apartment and Sidewalks are the hot-spots of the crimes.
+![](EDA_files/figure-markdown_github/1-1.png)
+
+Crimes committed by locations
+=============================
+
+It is obvious to wonder which locations are most unsafe to be better prepared. In the plot we see Street, Residence, Apartment and Sidewalks are the hot-spots of the crimes.
 
 ``` r
 #grouping by location
