@@ -1,5 +1,7 @@
 # Chicago-Crime-Analysis
-The analysis of the crimes committed in Chicago from 2005 to 2016.
+
+Synopsis:
+Conducted Exploratory Data Analysis on the large dataset from Chicago Police Department website with over 7 million reported cases from 2005 – 2017, to pin point the features like trend of crimes committed, most risky time horizon (hours and months), most prone locations and arrest rates of various crimes at different locations. Further, applied regression and classification models to identify the most important variables (6 out of 23) for predicting the arrest in a crime occurrence.
 
 Data was downloaded from kaggle website(https://www.kaggle.com/currie32/crimes-in-chicago/home).
 
